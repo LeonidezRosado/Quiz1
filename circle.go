@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -21,5 +20,3 @@ func (c circle) perimeter() float64 {
 	return 2 * math.Pi * c.radius
 }
 
-func main() {
-}

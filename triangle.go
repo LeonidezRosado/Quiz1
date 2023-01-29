@@ -14,7 +14,7 @@ type triangle struct{
 
 //2)creating a method on type triangle named area that calculates and returns area 
 func (t triangle) Area() float64{
-	return 1/2 * (t.base * t.height)
+	return .5 * (t.base * t.height)
 }
 
 //3)creating a method on type triangle named perimeter that calculates and returns perimeter
@@ -36,4 +36,15 @@ func main() {
 	fmt.Println(Trian1.Area())
 	fmt.Println(Trian1.perimeter())
 
+	circ1 := circle {
+		radius: 3,
+	}
+
+	fmt.Println(circ1.area())
+	fmt.Println(circ1.perimeter())
+
+	//calling the square function
+	area, perimeter := square(10)
+	fmt.Println("Area of a square: ", area)
+	fmt.Println("perimeter of a square: ", perimeter)
 }
