@@ -26,5 +26,12 @@ func (t triangle) perimeter() float64 {
 }
 
 func main() {
+	//4)creating a variable of type triangle
+	Trian1 := triangle{
+		base: 10,
+		height: 12,
+	}
+
+	
 
 }
