@@ -17,6 +17,14 @@ func (t triangle) Area() float64{
 	return 1/2 * (t.base * t.height)
 }
 
+//3)creating a method on type triangle named perimeter that calculates and returns perimeter
+func (t triangle) perimeter() float64 {
+	var y float64 = 2
+	hypo := math.Sqrt(math.Pow(t.base,y) + math.Pow(t.height,y))
+
+	return hypo + t.base + t.height
+}
+
 func main() {
 
 }
