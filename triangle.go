@@ -32,7 +32,7 @@ func main() {
 		height: 12,
 	}
 
-	//calling the area and permeter methods on that triangle
+	//5)calling the area and permeter methods on that triangle
 	fmt.Println(Trian1.Area())
 	fmt.Println(Trian1.perimeter())
 

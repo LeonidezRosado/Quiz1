@@ -4,6 +4,7 @@ import (
 	"testing"
 )
 
+
 func TestCircle_area(t *testing.T) {
 	got := circle {
 		radius: 3,	
@@ -26,6 +27,6 @@ func TestCircle_perimeter(t *testing.T) {
 	expected := 18.84955592153876
 
 	if got1 != expected {
-		t.Errorf("got %v expected %v", got, expected)
+		t.Errorf("got %v expected %v", got1, expected)
 	}
 }

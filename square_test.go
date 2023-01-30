@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 )
-
+//10)write a test for square function 
 func TestSquare(t *testing.T) {
 	got1,got2 := square(10)
 	expected1, expected2 := 100,40
