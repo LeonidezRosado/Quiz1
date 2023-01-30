@@ -44,7 +44,7 @@ func main() {
 	fmt.Println(circ1.perimeter())
 
 	//calling the square function
-	area, perimeter := Square(10)
+	area, perimeter := square(10)
 	fmt.Println("Area of a square:",area)
 	fmt.Println("perimeter of a square:",perimeter)
 }

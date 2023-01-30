@@ -5,7 +5,7 @@ import (
 )
 
 //9)creating a go function named square that accepted 
-func Square(side float64) (float64, float64) {
+func square(side float64) (float64, float64) {
 	var y float64 = 2
 	return math.Pow(side,y), side + side + side + side
 }
